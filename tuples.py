@@ -22,3 +22,11 @@ empty_tuple = tuple()
 tpl = ('item1', 'item2','item3')
 
 fruits = ('banana', 'orange', 'mango', 'lemon')
+
+### Tuple length
+
+#We use the _len()_ method to get the length of a tuple.
+
+# syntax
+tpl = ('item1', 'item2', 'item3')
+len(tpl)
