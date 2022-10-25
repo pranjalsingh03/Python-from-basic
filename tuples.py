@@ -61,3 +61,18 @@ fruits = ('banana', 'orange', 'mango', 'lemon')
 first_fruit = fruits[-4]
 second_fruit = fruits[-3]
 last_fruit = fruits[-1]
+
+### Changing Tuples to Lists
+
+# We can change tuples to lists and lists to tuples. Tuple is immutable if we want to modify a tuple we should change it to a list.
+
+# Syntax
+tpl = ('item1', 'item2', 'item3','item4')
+lst = list(tpl)
+
+fruits = ('banana', 'orange', 'mango', 'lemon')
+fruits = list(fruits)
+fruits[0] = 'apple'
+print(fruits)     # ['apple', 'orange', 'mango', 'lemon']
+fruits = tuple(fruits)
+print(fruits)     # ('apple', 'orange', 'mango', 'lemon')
