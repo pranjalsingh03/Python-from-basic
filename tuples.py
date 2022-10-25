@@ -151,4 +151,4 @@ del tpl1
 fruits = ('banana', 'orange', 'mango', 'lemon')
 del fruits
 
-#You are so brave, you made it to this far. You have just completed day 6 challenges and you are 6 steps a head in to your way to greatness.
+#You are so brave, you made it to this far. You have just completed day 6 challenges in python and you are 6 steps a head in to your way to greatness.
