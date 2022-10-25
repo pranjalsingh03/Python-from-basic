@@ -127,7 +127,7 @@ fruits[0] = 'apple'         # TypeError: 'tuple' object does not support item as
 
 ### Joining Tuples
 
- #We can join two or more tuples using + operator
+ # We can join two or more tuples using + operator
 
 # syntax
 tpl1 = ('item1', 'item2', 'item3')
@@ -137,3 +137,18 @@ tpl3 = tpl1 + tpl2
 fruits = ('banana', 'orange', 'mango', 'lemon')
 vegetables = ('Tomato', 'Potato', 'Cabbage','Onion', 'Carrot')
 fruits_and_vegetables = fruits + vegetables
+
+### Deleting Tuples
+
+ # It is not possible to remove a single item in a tuple but it is possible to delete the tuple itself using _del_.
+
+
+# syntax
+tpl1 = ('item1', 'item2', 'item3')
+del tpl1
+
+
+fruits = ('banana', 'orange', 'mango', 'lemon')
+del fruits
+
+#You are so brave, you made it to this far. You have just completed day 6 challenges and you are 6 steps a head in to your way to greatness.
