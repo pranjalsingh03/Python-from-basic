@@ -124,3 +124,16 @@ fruits = ('banana', 'orange', 'mango', 'lemon')
 print('orange' in fruits)   # True
 print('apple' in fruits)    # False
 fruits[0] = 'apple'         # TypeError: 'tuple' object does not support item assignment
+
+### Joining Tuples
+
+ #We can join two or more tuples using + operator
+
+# syntax
+tpl1 = ('item1', 'item2', 'item3')
+tpl2 = ('item4', 'item5','item6')
+tpl3 = tpl1 + tpl2
+
+fruits = ('banana', 'orange', 'mango', 'lemon')
+vegetables = ('Tomato', 'Potato', 'Cabbage','Onion', 'Carrot')
+fruits_and_vegetables = fruits + vegetables
