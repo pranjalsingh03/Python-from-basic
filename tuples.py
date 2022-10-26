@@ -1,5 +1,7 @@
 ## Day06 - Tuples
 
+# Hello myself Pranja Singh I'm currently doing B.tech Computer science and enginering.   
+
 '''A tuple is a collection of different data types which is ordered and unchangeable (immutable). 
 Tuples are written with round brackets, (). Once a tuple is created, we cannot change its values. 
 We cannot use add, insert, remove methods in a tuple because it is not modifiable (mutable). 
