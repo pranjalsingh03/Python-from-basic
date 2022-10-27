@@ -24,3 +24,16 @@ st = set()
 
 # syntax
 st = {'item1', 'item2', 'item3', 'item4'}
+
+#Example:
+
+# syntax
+fruits = {'banana', 'orange', 'mango', 'lemon'}
+
+### Getting Set's Length
+
+#We use **len()** method to find the length of a set.
+
+# syntax
+st = {'item1', 'item2', 'item3', 'item4'}
+len(set)
