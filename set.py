@@ -37,3 +37,26 @@ fruits = {'banana', 'orange', 'mango', 'lemon'}
 # syntax
 st = {'item1', 'item2', 'item3', 'item4'}
 len(set)
+
+#Example:
+
+fruits = {'banana', 'orange', 'mango', 'lemon', 'strawberry'}
+len(fruits)
+
+### Accessing Items in a Set
+
+# We use loops to access items. We will see this in loop section
+
+### Checking an Item
+
+# To check if an item exist in a list we use _in_ membership operator.
+
+# syntax
+st = {'item1', 'item2', 'item3', 'item4'}
+print("Does set st contain item3? ", 'item3' in st)         # Does set st contain item3? True
+
+#Example:
+
+
+fruits = {'banana', 'orange', 'mango', 'lemon', 'strawberry'}
+print('mango' in fruits ) # True
