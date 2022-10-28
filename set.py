@@ -59,4 +59,4 @@ print("Does set st contain item3? ", 'item3' in st)         # Does set st contai
 
 
 fruits = {'banana', 'orange', 'mango', 'lemon', 'strawberry'}
-print('mango' in fruits ) # True
+print('mango' in fruits )       # True
