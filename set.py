@@ -60,3 +60,25 @@ print("Does set st contain item3? ", 'item3' in st)         # Does set st contai
 
 fruits = {'banana', 'orange', 'mango', 'lemon', 'strawberry'}
 print('mango' in fruits )       # True
+
+### Adding Items to a Set
+
+# Once a set is created we cannot change any items and we can also add additional items.
+
+# Add one item using _add()_
+
+# syntax
+st = {'item1', 'item2', 'item3', 'item4'}
+st.add('item5')
+
+#Example:
+
+fruits = {'banana', 'orange', 'mango', 'lemon'}
+fruits.add('lime')
+
+#Add multiple items using _update()_
+# The *update()* allows to add multiple items to a set. The *update()* takes a list argument.
+
+# syntax
+st = {'item1', 'item2', 'item3', 'item4'}
+st.update(['item5','item6','item7'])
