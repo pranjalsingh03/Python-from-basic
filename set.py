@@ -123,13 +123,11 @@ removed_item = fruits.pop()
 st = {'item1', 'item2', 'item3', 'item4'}
 st.clear()
 
-
 #Example:
 
 fruits = {'banana', 'orange', 'mango', 'lemon'}
 fruits.clear()
 print(fruits) # set()
-
 
 ### Deleting a Set
 
@@ -138,5 +136,43 @@ print(fruits) # set()
 # syntax
 st = {'item1', 'item2', 'item3', 'item4'}
 del st
+
+#Example:
+
+fruits = {'banana', 'orange', 'mango', 'lemon'}
+del fruits
+
+### Converting List to Set
+
+#We can convert list to set and set to list. Converting list to set removes duplicates and only unique items will be reserved.
+
+# syntax
+lst = ['item1', 'item2', 'item3', 'item4', 'item1']
+st = set(lst)  # {'item2', 'item4', 'item1', 'item3'} - the order is random, because sets in general are unordered
+
+#Example:
+
+fruits = ['banana', 'orange', 'mango', 'lemon','orange', 'banana']
+fruits = set(fruits) # {'mango', 'lemon', 'banana', 'orange'}
+
+### Joining Sets
+
+#We can join two sets using the _union()_ or _update()_ method.
+
+#Union
+#This method returns a new set
+
+# syntax
+st1 = {'item1', 'item2', 'item3', 'item4'}
+st2 = {'item5', 'item6', 'item7', 'item8'}
+st3 = st1.union(st2)
+
+#Example:
+
+fruits = {'banana', 'orange', 'mango', 'lemon'}
+vegetables = {'tomato', 'potato', 'cabbage','onion', 'carrot'}
+print(fruits.union(vegetables)) # {'lemon', 'carrot', 'tomato', 'banana', 'mango', 'orange', 'cabbage', 'potato', 'onion'}
+
+
 
 
