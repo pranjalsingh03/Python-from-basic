@@ -82,3 +82,61 @@ fruits.add('lime')
 # syntax
 st = {'item1', 'item2', 'item3', 'item4'}
 st.update(['item5','item6','item7'])
+
+#Example:
+
+fruits = {'banana', 'orange', 'mango', 'lemon'}
+vegetables = ('tomato', 'potato', 'cabbage','onion', 'carrot')
+fruits.update(vegetables)
+
+
+### Removing Items from a Set
+
+#We can remove an item from a set using _remove()_ method. If the item is not found _remove()_ method will raise errors, so it is good to check if the item exist in the given set. However, _discard()_ method doesn't raise any errors.
+
+# syntax
+st = {'item1', 'item2', 'item3', 'item4'}
+st.remove('item2')
+
+
+#The pop() methods remove a random item from a list and it returns the removed item.
+
+#Example:
+
+fruits = {'banana', 'orange', 'mango', 'lemon'}
+fruits.pop()  # removes a random item from the set
+
+
+
+#If we are interested in the removed item.
+
+fruits = {'banana', 'orange', 'mango', 'lemon'}
+removed_item = fruits.pop() 
+
+
+
+### Clearing Items in a Set
+
+#If we want to clear or empty the set we use _clear_ method.
+
+# syntax
+st = {'item1', 'item2', 'item3', 'item4'}
+st.clear()
+
+
+#Example:
+
+fruits = {'banana', 'orange', 'mango', 'lemon'}
+fruits.clear()
+print(fruits) # set()
+
+
+### Deleting a Set
+
+#If we want to delete the set itself we use _del_ operator.
+
+# syntax
+st = {'item1', 'item2', 'item3', 'item4'}
+del st
+
+
