@@ -63,3 +63,25 @@ print(len(person))     # 7
 dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
 print(dct['key1']) # value1
 print(dct['key4']) # value4
+
+#Example:
+
+person = {
+    'first_name':'Pranjal',
+    'last_name':'Singh',
+    'age':18,
+    'country':'India',
+    'is_marred':False,
+    'skills':['JavaScript', 'React', 'CSS', 'HTML', 'Python'],
+    'address':{
+        'street':'Gorakhpur',
+        'zipcode':'274207'
+    }
+    }
+
+print(person['first_name']) # Pranjal 
+print(person['country'])    # India
+print(person['skills'])     # ['JavaScript', 'React', 'CSS', 'HTML', 'Python']
+print(person['skills'][0])  # JavaScript
+print(person['address']['street']) # Gorakhpur 
+print(person['city'])       # Error
