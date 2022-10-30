@@ -37,4 +37,20 @@ person = {
 
 # syntax
 dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
-print(len(dct)) # 4
+print(len(dct))            # 4
+
+#Example:
+
+person = {
+    'first_name':'Pranjal',
+    'last_name':'Singh',
+    'age':18,
+    'country':'India',
+    'is_marred':False,
+    'skills':['JavaScript', 'React', 'CSS', 'HTML', 'Python'],
+    'address':{
+        'street':'Gorakhpur',
+        'zipcode':'274207'
+    }
+    }
+print(len(person))     # 7
