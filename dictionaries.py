@@ -54,3 +54,12 @@ person = {
     }
     }
 print(len(person))     # 7
+
+### Accessing Dictionary Items
+
+#We can access Dictionary items by referring to its key name.
+
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+print(dct['key1']) # value1
+print(dct['key4']) # value4
