@@ -257,4 +257,4 @@ values = dct.values()
 print(values)     # dict_values(['value1', 'value2', 'value3', 'value4'])
 
 
-
+# we have succesfully completed till dictionaries in python.
