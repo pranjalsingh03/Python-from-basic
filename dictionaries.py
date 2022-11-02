@@ -191,3 +191,70 @@ person = {
         'zipcode':'274207'
     }
     }
+
+person.pop('first_name')        # Removes the firstname item
+person.popitem()                # Removes the address item
+del person['is_married']        # Removes the is_married item
+
+
+### Changing Dictionary to a List of Items
+
+#The _items()_ method changes dictionary to a list of tuples.
+
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+print(dct.items()) # dict_items([('key1', 'value1'), ('key2', 'value2'), ('key3', 'value3'), ('key4', 'value4')])
+
+### Clearing a Dictionary
+
+#If we don't want the items in a dictionary we can clear them using _clear()_ method
+
+
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+print(dct.clear()) # None
+
+
+### Deleting a Dictionary
+
+#If we do not use the dictionary we can delete it completely
+
+
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+del dct
+
+
+### Copy a Dictionary
+
+#We can copy a dictionary using a _copy()_ method. Using copy we can avoid mutation of the original dictionary.
+
+
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+dct_copy = dct.copy() # {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+
+
+### Getting Dictionary Keys as a List
+
+#The _keys()_ method gives us all the keys of a a dictionary as a list.
+
+
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+keys = dct.keys()
+print(keys)     # dict_keys(['key1', 'key2', 'key3', 'key4'])
+
+
+### Getting Dictionary Values as a List
+
+#The _values_ method gives us all the values of a a dictionary as a list.
+
+
+# syntax
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+values = dct.values()
+print(values)     # dict_values(['value1', 'value2', 'value3', 'value4'])
+
+
+
