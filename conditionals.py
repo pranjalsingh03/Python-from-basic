@@ -44,3 +44,25 @@ else:
 
 
 #The condition above proves false, therefore the else block was executed. How about if our condition is more than two? We could use _ elif_.
+
+'''If Elif Else'''
+
+#In our daily life, we make decisions on daily basis. We make decisions not by checking one or two conditions but multiple conditions. As similar to life, programming is also full of conditions. We use _elif_ when we have multiple conditions.
+
+# syntax
+'''if condition:
+    code
+elif condition:
+    code
+else:
+    code'''
+
+#Example:
+
+a = 0
+if a > 0:
+    print('A is a positive number')
+elif a < 0:
+    print('A is a negative number')
+else:
+    print('A is zero')
