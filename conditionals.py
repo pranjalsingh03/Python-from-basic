@@ -23,3 +23,24 @@ if a > 0:
 # A is a positive number
 
 #As you can see in the example above, 3 is greater than 0. The condition was true and the block code was executed. However, if the condition is false, we do not see the result. In order to see the result of the falsy condition, we should have another block, which is going to be _else_.
+
+### If Else
+
+#If condition is true the first block will be executed, if not the else condition will run.
+# syntax
+'''if condition:
+    this part of code runs for truthy conditions
+else:
+     this part of code runs for false conditions
+'''
+
+#Example:
+
+a = 3
+if a < 0:
+    print('A is a negative number')
+else:
+    print('A is a positive number')
+
+
+#The condition above proves false, therefore the else block was executed. How about if our condition is more than two? We could use _ elif_.
