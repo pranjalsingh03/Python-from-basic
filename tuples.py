@@ -10,7 +10,9 @@ Unlike list, tuple has few methods. Methods related to tuples:
 - tuple(): to create an empty tuple
 - count(): to count the number of a specified item in a tuple
 - index(): to find the index of a specified item in a tuple
-- + operator: to join two or more tuples and to create a new tuple'''
+- + operator: to join two or more tuples and to create a new tuple
+
+- A Flag in python is defines a distributed command line system, replacing systems like getopt() , optparse , and manual argument processing'''
 
 # Empty tuple: Creating an empty tuple
 # syntax
