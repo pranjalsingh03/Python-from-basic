@@ -43,3 +43,27 @@ def add_two_numbers ():
     total = num_one + num_two
     print(total)
 add_two_numbers()
+
+### Function Returning a Value - Part 1
+
+'''Function can also return values, 
+if a function does not have a return statement, the value of 
+the function is None. Let us rewrite the above functions using 
+return. From now on, we get a value from a function when we call 
+the function and print it.'''
+
+
+def generate_full_name ():
+    first_name = 'Pranjal'
+    last_name = 'Singh'
+    space = ' '
+    full_name = first_name + space + last_name
+    return full_name
+print(generate_full_name())
+
+def add_two_numbers ():
+    num_one = 2
+    num_two = 3
+    total = num_one + num_two
+    return total
+print(add_two_numbers())
