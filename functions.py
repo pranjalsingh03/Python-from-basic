@@ -9,3 +9,16 @@ designed to perform a certain task. To define or declare a function,
 Python provides the _def_ keyword. The following is the syntax for 
 defining a function. The function block of code is executed only if 
 the function is called or invoked.'''
+
+### Declaring and Calling a Function
+
+'''When we make a function, we call it declaring a function. When 
+we start using the it,  we call it *calling* or *invoking* a function. 
+Function can be declared with or without parameters.'''
+
+# syntax
+# Declaring a function
+def function_name():
+
+# Calling a function
+    function_name()
