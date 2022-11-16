@@ -115,4 +115,40 @@ def sum_of_numbers(n):
     print(total)
 print(sum_of_numbers(10)) # 55
 print(sum_of_numbers(100)) # 5050
+'''Two Parameter: A function may or may not have a parameter or parameters. A function may also have two or more parameters. If our function takes parameters we should call it with arguments. Let us check a function with two parameters:'''
+
+# syntax
+# Declaring a function
+def function_name(para1, para2):
+#   codes
+#   codes
+# Calling function
+    print(function_name(arg1, arg2))
+
+
+
+#Example:
+
+def generate_full_name (first_name, last_name):
+    space = ' '
+    full_name = first_name + space + last_name
+    return full_name
+print('Full Name: ', generate_full_name('Asabeneh','Yetayeh'))
+
+def sum_two_numbers (num_one, num_two):
+    sum = num_one + num_two
+    return sum
+print('Sum of two numbers: ', sum_two_numbers(1, 9))
+
+def calculate_age (current_year, birth_year):
+    age = current_year - birth_year
+    return age;
+
+print('Age: ', calculate_age(2021, 1819))
+
+def weight_of_object (mass, gravity):
+    weight = str(mass * gravity)+ ' N'               # the value has to be changed to a string first
+    return weight
+print('Weight of an object in Newtons: ', weight_of_object(100, 9.81))
+
 
