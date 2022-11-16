@@ -151,4 +151,30 @@ def weight_of_object (mass, gravity):
     return weight
 print('Weight of an object in Newtons: ', weight_of_object(100, 9.81))
 
+### Passing Arguments with Key and Value
+
+'''If we pass the arguments with key and value, the order of the arguments does not matter.'''
+
+# syntax
+# Declaring a function
+def function_name(para1, para2):
+#    codes
+#   codes
+# Calling function
+    print(function_name(para1 = 'John', para2 = 'Doe')) # the order of arguments does not matter here
+
+#Example:
+
+
+def print_fullname(firstname, lastname):
+    space = ' '
+    full_name = firstname  + space + lastname
+    print(full_name)
+print(print_fullname(firstname = 'Asabeneh', lastname = 'Yetayeh'))
+
+def add_two_numbers (num1, num2):
+    total = num1 + num2
+    print(total)
+print(add_two_numbers(num2 = 3, num1 = 2))      # Order does not matter
+
 
