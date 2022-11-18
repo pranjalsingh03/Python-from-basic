@@ -91,7 +91,7 @@ def greetings (name):
     message = name + ', welcome to Python for Everyone!'
     return message
 
-print(greetings('Asabeneh'))
+print(greetings('Pranjal'))
 
 def add_ten(num):
     ten = 10
@@ -133,7 +133,7 @@ def generate_full_name (first_name, last_name):
     space = ' '
     full_name = first_name + space + last_name
     return full_name
-print('Full Name: ', generate_full_name('Asabeneh','Yetayeh'))
+print('Full Name: ', generate_full_name('Pranjal','Singh'))
 
 def sum_two_numbers (num_one, num_two):
     sum = num_one + num_two
@@ -161,7 +161,7 @@ def function_name(para1, para2):
 #    codes
 #   codes
 # Calling function
-    print(function_name(para1 = 'John', para2 = 'Doe')) # the order of arguments does not matter here
+    print(function_name(para1 = 'Magan', para2 = 'Pranjal')) # the order of arguments does not matter here
 
 #Example:
 
@@ -170,7 +170,7 @@ def print_fullname(firstname, lastname):
     space = ' '
     full_name = firstname  + space + lastname
     print(full_name)
-print(print_fullname(firstname = 'Asabeneh', lastname = 'Yetayeh'))
+print(print_fullname(firstname = 'Pranjal', lastname = 'Singh'))
 
 def add_two_numbers (num1, num2):
     total = num1 + num2
