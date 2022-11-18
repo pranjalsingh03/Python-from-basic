@@ -177,4 +177,20 @@ def add_two_numbers (num1, num2):
     print(total)
 print(add_two_numbers(num2 = 3, num1 = 2))      # Order does not matter
 
+### Function Returning a Value - Part 2
+
+'''If we do not return a value with a function, then our function is returning _None_ by default. To return a value with a function we use the keyword _return_ followed by the variable we are returning. We can return any kind of data types from a function.'''
+
+# Returning a string:
+#Example:
+
+def print_name(firstname):
+    return firstname
+print_name('Pranjal') # Pranjal
+
+def print_full_name(firstname, lastname):
+    space = ' '
+    full_name = firstname  + space + lastname
+    return full_name
+print_full_name(firstname='Pranjal', lastname='Singh')
 
