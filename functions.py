@@ -194,3 +194,40 @@ def print_full_name(firstname, lastname):
     return full_name
 print_full_name(firstname='Pranjal', lastname='Singh')
 
+#Returning a number:
+
+#Example:
+
+def add_two_numbers (num1, num2):
+    total = num1 + num2
+    return total
+print(add_two_numbers(2, 3))
+
+def calculate_age (current_year, birth_year):
+    age = current_year - birth_year
+    return age;
+print('Age: ', calculate_age(2019, 1819))
+
+#Returning a boolean:
+
+#Example:
+
+def is_even (n):
+    if n % 2 == 0:
+        print('even')
+        return True     # return stops further execution of the function, similar to break 
+    return False
+print(is_even(10))      # True
+print(is_even(7))       # False
+
+
+#Returning a list:
+#Example:
+
+def find_even_numbers(n):
+    evens = []
+    for i in range(n + 1):
+        if i % 2 == 0:
+            evens.append(i)
+    return evens
+print(find_even_numbers(10))
