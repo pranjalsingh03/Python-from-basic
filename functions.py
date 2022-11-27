@@ -242,7 +242,7 @@ def function_name(param = value):
     #codes
     #codes
 # Calling function
-function_name()
+    function_name()
 function_name(arg)
 
 #Example:
@@ -271,3 +271,43 @@ def weight_of_object (mass, gravity = 9.81):
     return weight
 print('Weight of an object in Newtons: ', weight_of_object(100)) # 9.81 - average gravity on Earth's surface
 print('Weight of an object in Newtons: ', weight_of_object(100, 1.62)) # gravity on the surface of the Moon
+
+### Arbitrary Number of Arguments
+
+'''If we do not know the number of arguments we pass to our function, we can create a function which can take arbitrary number of arguments by adding \* before the parameter name.'''
+
+# syntax
+# Declaring a function
+def function_name(*args):
+    #codes
+    #codes
+# Calling function
+    function_name(param1, param2, param3)
+
+#Example:
+
+def sum_all_nums(*nums):
+    total = 0
+    for num in nums:
+        total += num     # same as total = total + num 
+    return total
+print(sum_all_nums(2, 3, 5)) # 10
+
+
+### Default and Arbitrary Number of Parameters in Functions
+
+def generate_groups (team,*args):
+    print(team)
+    for i in args:
+        print(i)
+print(generate_groups('Team-1','Asabeneh','Brook','David','Eyob'))
+
+
+### Function as a Parameter of Another Function
+
+#You can pass functions around as parameters
+def square_number (n):
+    return n * n
+def do_something(f, x):
+    return f(x)
+print(do_something(square_number, 3)) # 27
