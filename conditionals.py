@@ -83,9 +83,9 @@ print('A is positive') if a > 0 else print('A is negative') # first condition me
 
 
 # syntax
-if condition:
+if '''condition''':
     #code
-    if condition:
+    if '''condition''':
     #code
 
 
