@@ -84,14 +84,13 @@ print('A is positive') if a > 0 else print('A is negative') # first condition me
 
 # syntax
 if condition:
-    code
+    #code
     if condition:
-    code
+    #code
 
 
-#**Example: **
+#Example:
 
-```py
 a = 0
 if a > 0:
     if a % 2 == 0:
