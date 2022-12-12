@@ -104,11 +104,11 @@ else:
 
 '''We can avoid writing nested condition by using logical operator _and_.'''
 
-### If Condition and Logical Operators
+'''If Condition and Logical Operators'''
 
 
 # syntax
-# if #condition and #condition:
+if #condition and #condition:
     #code
 
 
