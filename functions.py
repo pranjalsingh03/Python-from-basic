@@ -88,7 +88,7 @@ def function_name(parameter):
 #Example:
 
 def greetings (name):
-    message = name + ', welcome to Python for Everyone!'
+    message = name + ', welcome to Python Everyone!'
     return message
 
 print(greetings('Pranjal'))
@@ -300,7 +300,7 @@ def generate_groups (team,*args):
     print(team)
     for i in args:
         print(i)
-print(generate_groups('Team-1','Asabeneh','Brook','David','Eyob'))
+print(generate_groups('Team-1','Pranjal','Magan','Sunil','Anil'))
 
 
 ### Function as a Parameter of Another Function
