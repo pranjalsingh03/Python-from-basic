@@ -75,18 +75,11 @@ else:
 #Example: 
 
 a = 3
-print('A is positive') if a > 0 else print('A is negative') # first condition met, 'A is positive' will be printed
+print('A is positive') if a > 0 else print('A is negative') #first condition met, 'A is positive' will be printed
 
 ### Nested Conditions
 
 #Conditions can be nested
-
-
-# syntax
-if '''condition''':
-    #code
-    if '''condition''':
-    #code
 
 
 #Example:
@@ -107,11 +100,6 @@ else:
 '''If Condition and Logical Operators'''
 
 
-# syntax
-if #condition and #condition:
-    #code
-
-
 #Example:
 
 a = 0
@@ -123,3 +111,14 @@ elif a == 0:
     print('A is zero')
 else:
     print('A is negative')
+
+### If and Or Logical Operators
+
+#Example:
+
+user = 'Magan'
+access_level = 3
+if user == 'admin' or access_level >= 4:
+        print('Access granted!')
+else:
+    print('Access denied!')
