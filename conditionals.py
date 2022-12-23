@@ -75,7 +75,10 @@ else:
 #Example: 
 
 a = 3
-print('A is positive') if a > 0 else print('A is negative') #first condition met, 'A is positive' will be printed
+if a > 0:
+    print('A is positive')  
+else: 
+    print('A is negative') #first condition met, 'A is positive' will be printed
 
 ### Nested Conditions
 
