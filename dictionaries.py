@@ -100,8 +100,8 @@ person = {
         'zipcode':'274207'
     }
     }
-print(person.get('first_name')) # Asabeneh
-print(person.get('country'))    # Finland
+print(person.get('first_name')) # Pranjal 
+print(person.get('country'))    # India
 print(person.get('skills')) #['HTML','CSS','JavaScript', 'React', 'Node', 'MongoDB', 'Python']
 print(person.get('city'))   # None
 
