@@ -151,8 +151,8 @@ person = {
         'zipcode':'274207'
     }
     }
-person['first_name'] = 'Eyob'
-person['age'] = 252
+person['first_name'] = 'Magan'
+person['age'] = 19
 
 ### Checking Keys in a Dictionary
 
