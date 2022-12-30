@@ -56,3 +56,11 @@ print(positive_even_numbers)                    # [2, 4, 6, 8, 10, 12, 14, 16, 1
 list_of_lists = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 flattened_list = [ number for row in list_of_lists for number in row]
 print(flattened_list)    # [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+## Lambda Function
+
+'''Lambda function is a small anonymous function without a name. It can take any number of arguments, but can only have one expression. Lambda function is similar to anonymous functions in JavaScript. We need it when we want to write an anonymous function inside another function.'''
+
+### Creating a Lambda Function
+
+'''To create a lambda function we use _lambda_ keyword followed by a parameter(s), followed by an expression. See the syntax and the example below. Lambda function does not use return but it explicitly returns the expression.'''
