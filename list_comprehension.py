@@ -64,3 +64,20 @@ print(flattened_list)    # [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ### Creating a Lambda Function
 
 '''To create a lambda function we use _lambda_ keyword followed by a parameter(s), followed by an expression. See the syntax and the example below. Lambda function does not use return but it explicitly returns the expression.'''
+
+# syntax
+x = lambda param1, param2, param3: param1 + param2 + param2
+print(x(arg1, arg2, arg3))
+
+
+#Example:
+
+
+# Named function
+def add_two_nums(a, b):
+    return a + b
+
+print(add_two_nums(2, 3))     # 5
+# Lets change the above function to a lambda function
+add_two_nums = lambda a, b: a + b
+print(add_two_nums(2,3))    # 5
